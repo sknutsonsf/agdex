@@ -2,6 +2,8 @@ import { Map as LeafletMap, Marker, Popup, TileLayer } from 'react-leaflet/dist/
 
 import React from 'react';
 
+// This example code is from react-leaflet initial example:  https://codepen.io/stanpwe/pen/XGgOVm
+// with a different name
 class DexMap extends React.Component {
   constructor() {
     super();

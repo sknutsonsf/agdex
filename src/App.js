@@ -4,17 +4,17 @@ import DexMap from './DexMap';
 
 class App extends Component {
   render() {
-    return (
+      return (
+	  <div>
       <div className="App">
         <header className="App-header">
-          <p>
-           This is a simple create-react-app with a map
-          </p>
+          <h1>This is a simple create-react-app with a map</h1>
         </header>
+	      </div>
         <div id="map-outer">
-          <DexMap />
+	    <div>The map is below</div>
+            <DexMap />
         </div>
-
       </div>
     );
   }
